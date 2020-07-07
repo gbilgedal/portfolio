@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1361cd3a.chunk.css",
+    "main.js": "/portfolio/static/js/main.765d55c1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.765d55c1.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.0bff7b88.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bff7b88.js.map",
+    "static/js/2.1efe940f.chunk.js": "/portfolio/static/js/2.1efe940f.chunk.js",
+    "static/js/2.1efe940f.chunk.js.map": "/portfolio/static/js/2.1efe940f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.d745bfecd658b0895cc5c4b5c6c60627.js": "/portfolio/precache-manifest.d745bfecd658b0895cc5c4b5c6c60627.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.1361cd3a.chunk.css.map": "/portfolio/static/css/main.1361cd3a.chunk.css.map",
+    "static/js/2.1efe940f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1efe940f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio/static/media/bg.dcc99bc2.jpg",
+    "static/media/to-doer.png": "/portfolio/static/media/to-doer.e1de1489.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0bff7b88.js",
+    "static/js/2.1efe940f.chunk.js",
+    "static/css/main.1361cd3a.chunk.css",
+    "static/js/main.765d55c1.chunk.js"
+  ]
+}
