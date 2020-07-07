@@ -21,7 +21,7 @@
 } 
 .social{
     background: whitesmoke;
-    opacity: 80%;
+
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -29,6 +29,7 @@
     padding: 10px 20px;
     margin: 10px 20px;
 }
+
 .double{
     display: flex;
     justify-content: center;

@@ -28,7 +28,7 @@ const Contact = () => {
             <div className="fade-in reachOut">Reach out to me!</div>
             <div className="double">
                 <Card className={classes.root} >
-                <div className="social">
+                <div className="social fade-in">
                     <p ><span style={{ fontSize: "35px", }}>You can reach out to me<br/>via social medias like:</span></p>
                     <br/>
                     
@@ -42,7 +42,7 @@ const Contact = () => {
                 </Card>
                
                 <Card className={classes.root} >
-                <div className="social">
+                <div className="social fade-in">
                     
                     <p ><span style={{ fontSize: "35px", }}><br /><br />Or leave a message here!:</span></p>
                         <MessageCard/>

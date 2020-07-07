@@ -26,8 +26,11 @@ const Project = (props) => {
     const classes = useStyles();
     let logo;
     //manual picture setting
-    if(props.index===0||props.index===1){
+    if(props.index===0){
          logo = require("./images/to-doer.png");
+    }
+    if (props.index === 1) {
+        logo = require("./images/mad-libs.png");
     }
     if(props.index%2===0){
     return <div>
