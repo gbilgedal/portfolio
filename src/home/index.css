@@ -1,0 +1,98 @@
+.container {
+    background-image: url("../bg.jpg");
+    background-repeat: initial;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.full-screen{
+    position:absolute;
+    height:100vh;
+}
+
+*{
+    font-family: Abel, sans serif;
+}
+.filler{
+
+    /*fairy tail (:*/
+
+}
+
+.contactVia{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.contactVia a{
+opacity: 100%;
+color:black;
+}
+.nameTag{
+    position: absolute;
+    min-width: 600px;
+    top: 85%;
+    left: 90%;
+    font-size: 45px;
+    text-shadow: -1px 0 black,  0 -1px black;
+    transform: translate(-90%,-85%);
+    color: whitesmoke;
+    text-align: right;
+}
+.hello{
+    position: absolute;
+    min-width: 600px;
+    top: 25%;
+    left: 50%;
+    text-shadow: -1px 0 black,  0 -1px black,  0 -1px black,  0 -1px black;
+    font-size: 90px;
+    transform: translate(-50%,-25%);
+    color: whitesmoke;
+    text-align: right;
+}
+.myName{
+    font-weight: bolder;
+}
+.greeting{
+    font-weight: bolder;
+    color:whitesmoke;
+}
+.myName::before{
+    content: "";
+    position: absolute;
+    width: 230px;
+    top: 20%;
+    z-index: -42;
+    left: 103.9%;
+    transform: translate(-103.9%,-20%);
+    height: 17px;
+    display: block;
+    background: rgba(148, 24, 236, 0.712);
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in {
+	        animation: fade-in 0.5s ease-out both;
+}
+
+.navbar{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    width: 270px; 
+}
+div.navbar {
+    background-color: whitesmoke;
+    opacity:50%;
+    height:100%;
+    padding-bottom: 80px 0px;
+}
