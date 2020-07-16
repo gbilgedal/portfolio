@@ -1,74 +1,77 @@
 .container {
-    background-image: url("../bg.jpg");
-    background-repeat: initial;
-    background-size: cover;
-    background-position: center;
-    display: flex;
+  background-image: url("../bg.jpg");
+  background-repeat: initial;
+  background-size: cover;
+  background-position: center;
+  display: flex;
 }
-.full-screen{
-    position:absolute;
-    height:100vh;
-}
-
-*{
-    font-family: Abel, sans serif;
-}
-.filler{
-
-    /*fairy tail (:*/
-
+.full-screen {
+  position: absolute;
+  height: 100vh;
 }
 
-.contactVia{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+* {
+  font-family: Abel, sans serif;
 }
-.contactVia a{
-opacity: 1;
-color:black;
+.filler {
+  /*fairy tail (:*/
 }
-.nameTag{
-    position: absolute;
-    min-width: 600px;
-    top: 85%;
-    left: 90%;
-    font-size: 45px;
-    text-shadow: -1px 0 black,  0 -1px black;
-    transform: translate(-90%,-85%);
-    color: whitesmoke;
-    text-align: right;
+.buttonStyle {
+  opacity: 100% !important;
+  font-weight: bolder !important;
+  font-size: 2.1vw !important;
 }
-.hello{
-    position: absolute;
-    min-width: 600px;
-    top: 25%;
-    left: 50%;
-    text-shadow: -1px 0 black,  0 -1px black,  0 -1px black,  0 -1px black;
-    font-size: 90px;
-    transform: translate(-50%,-25%);
-    color: whitesmoke;
-    text-align: right;
+
+.contactVia {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
-.myName{
-    font-weight: bolder;
+.contactVia a {
+  opacity: 1;
+  color: black;
 }
-.greeting{
-    font-weight: bolder;
-    color:whitesmoke;
+.nameTag {
+  position: absolute;
+  min-width: 600px;
+  top: 85%;
+  left: 90%;
+  font-size: 50px;
+  text-shadow: -1px 0 black, 0 -1px black;
+  transform: translate(-90%, -85%);
+  color: whitesmoke;
+  text-align: right;
 }
-.myName::before{
-    content: "";
-    position: absolute;
-    width: 230px;
-    top: 20%;
-    z-index: -42;
-    left: 103.9%;
-    transform: translate(-103.9%,-20%);
-    height: 17px;
-    display: block;
-    background: rgba(148, 24, 236, 0.712);
+.hello {
+  position: absolute;
+  min-width: 600px;
+  top: 25%;
+  left: 50%;
+  text-shadow: -1px 0 black, 0 -1px black, 0 -1px black, 0 -1px black;
+  font-size: 90px;
+  transform: translate(-50%, -25%);
+  color: whitesmoke;
+  text-align: right;
+}
+.myName {
+  font-weight: bolder;
+}
+.greeting {
+  font-weight: bolder;
+  color: whitesmoke;
+}
+.myName::before {
+  content: "";
+  position: absolute;
+  width: 230px;
+  top: 20%;
+  z-index: -42;
+  left: 103.9%;
+  transform: translate(-103.9%, -20%);
+  height: 17px;
+  display: block;
+  background: rgba(148, 24, 236, 0.712);
 }
 
 @keyframes fade-in {
@@ -80,19 +83,46 @@ color:black;
   }
 }
 .fade-in {
-	        animation: fade-in 0.5s ease-out both;
+  animation: fade-in 0.5s ease-out both;
 }
 
-.navbar{ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;   
-    width: 270px; 
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 270px;
+}
+.boo {
+  display: none;
+}
+
+.universe {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bolder;
 }
 div.navbar {
-    background-color: whitesmoke;
-    opacity:50%;
-    height:100%;
-    padding-bottom: 80px 0px;
+  background-color: whitesmoke;
+  opacity: 50%;
+  height: 100%;
+  padding-bottom: 80px 0px;
+}
+@media only screen and (max-width: 850px) {
+  div.navbar {
+    /*   display: none;*/
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  div.navbar {
+    width: 150px;
+  }
+
+  .buttonStyle {
+    font-size: 5vw;
+  }
+  .boo {
+    display: flex;
+  }
 }
