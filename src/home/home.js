@@ -31,13 +31,15 @@ const Home = () => {
   return (
     <div className="container full-screen ">
       <Navbar />
-      <div className="hello">
-        <span className="greeting fade-in">Welcome!</span>
-      </div>
-      <div className="nameTag ">
-        <span className="myName fade-in">G. Bilge Dal</span>
-        <br />
-        {def}
+      <div className="restOfPage">
+        <div className="hello">
+          <span className="greeting fade-in">Welcome!</span>
+        </div>
+        <div className="nameTag ">
+          <span className="myName fade-in">G. Bilge Dal</span>
+          <br />
+          {def}
+        </div>
       </div>
     </div>
   );

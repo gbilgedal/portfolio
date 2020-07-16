@@ -1,5 +1,4 @@
 .restOfPage {
-  text-align: center;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -7,5 +6,144 @@
 .doubleThis {
   display: flex;
   justify-content: center;
-  margin: 60px;
+  margin: 20px;
 }
+.imgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+#root {
+  background-image: url("../../src/bg.jpg");
+  background-repeat: initial;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  overflow: auto;
+}
+.imgStyle {
+  border-radius: 100%;
+  height: 200px;
+  margin: 0 auto;
+  filter: contrast(105%) brightness(85%);
+}
+.aboutPart {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  flex-direction: column;
+  overflow: auto;
+  transition: max-width 0.5s ease-in-out;
+  margin: 0;
+  right: 0;
+  width: 83%;
+}
+.aboutLabel {
+  color: black;
+  font-size: 75px;
+  text-align: center;
+  transition: font-size 0.5s ease-in-out;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.container-A .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 270px;
+  min-height: 100vh;
+  position: fixed;
+  height: 100vh;
+}
+p {
+  max-width: 80%;
+  font-size: 24px;
+  padding: 6px;
+  margin-bottom: 1px;
+}
+p:nth-last-of-type(1) {
+  margin-bottom: 22px;
+}
+.makeStyles-root-1 {
+  max-width: 950px !important;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 1376px) {
+  .aboutPart {
+    max-width: 1080px;
+  }
+}
+@media only screen and (max-width: 1312px) {
+  .aboutPart {
+    max-width: 1016px;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .aboutPart {
+    max-width: 962px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .doubleThis {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 5px;
+  }
+  .imgDiv {
+    margin: 5px;
+    margin-bottom: 15px;
+  }
+  .aboutPart {
+    max-width: 870px;
+    right: 10px;
+  }
+}
+@media only screen and (max-width: 1186px) {
+  
+  .aboutPart {
+    max-width: 870px;
+    right: 10px;
+  }
+}
+@media only screen and (max-width: 1162px) {
+  
+  .aboutPart {
+    max-width: 800px;
+    right: 30px;
+  }
+}
+@media only screen and (max-width: 1138px) {
+  
+  .aboutPart {
+    max-width: 720px;
+    right: 60px;
+  }
+}
+
+@media only screen and (max-width: 1118px) {
+  
+  .aboutPart {
+    max-width: 60%;
+    right: 6%;
+  }
+} 
+@media only screen and (max-width: 932px) {
+  .makeStyles-root-1{
+    min-width: 0px;
+  }
+  .aboutPart {
+    max-width: 50%;
+    right: 10%;
+  }
+  
+} 
+@media only screen and (max-width: 862px) {
+  .aboutPart {
+    max-width: 50%;
+    right: 6%;
+  }
+} 

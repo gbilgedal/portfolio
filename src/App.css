@@ -12,12 +12,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.container {
-  background-image: url("../src/bg.jpg");
-  background-repeat: initial;
-  background-size: cover;
-  background-position: center;
-}
+
 .full-screen {
   position: absolute;
   top: 0;

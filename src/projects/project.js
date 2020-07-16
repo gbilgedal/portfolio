@@ -17,7 +17,7 @@ const useStyles = makeStyles({
   },
 });
 const logoThingie = {
-  width: "50vw",
+  width: "40vw",
   margin: "0 20px",
 };
 const Project = (props) => {
@@ -30,6 +30,12 @@ const Project = (props) => {
   if (props.index === 1) {
     logo = require("./images/mad-libs.png");
   }
+  if (props.index === 2) {
+    logo = require("./images/sui-prev.png");
+  }
+  if (props.index === 3) {
+    logo = require("./images/tqbf.png");
+  }
 
   return (
     <div>
@@ -41,11 +47,11 @@ const Project = (props) => {
             </div>
             <p className="desc">{props.desc}</p>
             <div className="innerCardCss">
-              <a href="" target="_blank">
+              {props.github&&<a href={props.github} target="_blank">
                 <GitHubIcon style={{ fontSize: 45, color: "black" }} />
-              </a>
+              </a>}
               &nbsp;
-              <a href="" target="_blank">
+              {props.liveLink&&<a href={props.liveLink} target="_blank">
                 <LinkIcon
                   style={{
                     fontSize: 45,
@@ -53,7 +59,7 @@ const Project = (props) => {
                     transform: "rotate(45deg)",
                   }}
                 />
-              </a>
+              </a>}
             </div>
           </div>
         </Card>

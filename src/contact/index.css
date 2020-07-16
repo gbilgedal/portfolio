@@ -8,12 +8,14 @@
 .reachOut {
   color: black;
   font-size: 75px;
+  transition: font-size 0.5s ease-in-out;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding-bottom: 10px;
 }
 .contactPart {
   text-align: center;
   width: 100%;
-  padding: 30px;
+  padding-top: 10px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -21,24 +23,58 @@
 }
 .social {
   background: whitesmoke;
-
   display: flex;
+  width: 100%;
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  padding: 10px 20px;
-  margin: 10px 20px;
 }
 
+.social > p {
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
 .double {
   display: flex;
   justify-content: center;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
 }
 .socialform {
   background: whitesmoke;
-  opacity: 80%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  width: 80%;
+margin: 0 auto;
+}
+.reachOutText,
+.messageText {
+  font-size: 35px;
+  transition: font-size 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 1172px) {
+  .reachOutText,
+  .messageText {
+    font-size: 20px;
+  }
+  .double > div {
+    max-width: 40% !important;
+    width: 40% !important;
+  }
+}
+@media only screen and (max-width: 1016px) {
+  .reachOutText,
+  .messageText {
+    font-size: 20px;
+  }
+  .socialform {
+    height: 50vh;
+  }
+  .reachOut {
+    font-size: 50px;
+  }
 }

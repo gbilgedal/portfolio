@@ -14,7 +14,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const linkStyle = { textDecoration: "none" };
+const linkStyle = { textDecoration: "none", width: "100%", textAlign:"center" };
+
 const Navbar = () => {
   const classes = useStyles();
   return (

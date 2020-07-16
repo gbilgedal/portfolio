@@ -1,14 +1,15 @@
 .container {
-  background-image: url("../bg.jpg");
-  background-attachment: fixed;
-  background-repeat: initial;
-  background-size: cover;
-  background-position: center;
   display: flex;
 }
 .full-screen {
   position: absolute;
   height: 100vh;
+}
+.restOfPage {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .projects {
   display: flex;
@@ -23,8 +24,12 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .desc {
-  padding: 10px 70px;
-  text-align: center;
+  padding: 20px 70px;
+  text-align: start;
+  font-size: 20px;
+  width: 100%;
+  letter-spacing: 0.3px;
+  margin: 0 auto;
 }
 .cardCss {
   display: flex;

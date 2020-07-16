@@ -12,17 +12,19 @@ const ContactViaIconComponent = () => {
         href="https://github.com/gbilgedal/"
         target="_blank"
       >
-        <GitHubIcon />
+        <GitHubIcon className="navIconGit" />
       </a>
       <a
         rel="noopener noreferrer"
         href="https://tr.linkedin.com/in/gbilgedal"
         target="_blank"
       >
-        <LinkedInIcon />
+        <LinkedInIcon
+          className="navIconSvg"
+        />
       </a>
       <a rel="noopener noreferrer" href="http://t.me/ahripol" target="_blank">
-        <TelegramIcon />
+        <TelegramIcon fontSize="small" className="navIconSvg" />
       </a>
     </div>
   );

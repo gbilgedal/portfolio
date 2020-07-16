@@ -7,7 +7,11 @@ const Resume = () => {
     <div className="container full-screen">
       <Navbar />
       <div className="restOfPage">
-        <a className="fade-in" href="#">
+        <a
+          target="_blank"
+          className="fade-in"
+          href="https://docs.google.com/document/d/1xbYBg7EJYcP_ba7yhxh2C72sj9Ky2fqDFYGyhNf8VTM/edit?usp=sharing"
+        >
           <GetAppIcon style={{ fontSize: 500, color: "whitesmoke" }} />
         </a>
       </div>

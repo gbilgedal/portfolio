@@ -10,11 +10,11 @@ import Card from "@material-ui/core/Card";
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 275,
     backgroundColor: "whitesmoke",
     margin: "0 5px",
     border: "solid 10px black",
     opacity: "80%",
+    width: "430px",
   },
 });
 
@@ -30,7 +30,7 @@ const Contact = () => {
           <Card className={classes.root}>
             <div className="social fade-in">
               <p>
-                <span style={{ fontSize: "35px" }}>
+                <span className="reachOutText">
                   You can reach out to me
                   <br />
                   via social medias like:
@@ -58,7 +58,7 @@ const Contact = () => {
           <Card className={classes.root}>
             <div className="social fade-in">
               <p>
-                <span style={{ fontSize: "35px" }}>
+                <span className="messageText">
                   <br />
                   <br />
                   Or leave a message here!:

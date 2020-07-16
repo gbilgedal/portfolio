@@ -1,8 +1,4 @@
 .container {
-  background-image: url("../bg.jpg");
-  background-repeat: initial;
-  background-size: cover;
-  background-position: center;
   display: flex;
 }
 .full-screen {
@@ -17,11 +13,20 @@
   /*fairy tail (:*/
 }
 .buttonStyle {
-  opacity: 100% !important;
   font-weight: bolder !important;
   font-size: 2.1vw !important;
+  width: 100%;
 }
-
+.navIconSvg {
+  width: 30px !important;
+  height: 30px !important;
+  padding: 10px;
+}
+.navIconGit {
+  width: 26px !important;
+  height: 26px !important;
+  padding: 10px;
+}
 .contactVia {
   display: flex;
   width: 100%;
@@ -56,6 +61,7 @@
 }
 .myName {
   font-weight: bolder;
+  transition: all 0.5 ease-in-out;
 }
 .greeting {
   font-weight: bolder;
@@ -64,7 +70,7 @@
 .myName::before {
   content: "";
   position: absolute;
-  width: 230px;
+  width: 42%;
   top: 20%;
   z-index: -42;
   left: 103.9%;
@@ -74,7 +80,10 @@
   background: rgba(148, 24, 236, 0.712);
 }
 
-@keyframes fade-in {
+.fade-in {
+  animation: fade 0.5s ease-in-out both;
+}
+@keyframes fade {
   0% {
     opacity: 0;
   }
@@ -82,16 +91,12 @@
     opacity: 1;
   }
 }
-.fade-in {
-  animation: fade-in 0.5s ease-out both;
-}
-
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 270px;
+  min-width: 270px;
 }
 .boo {
   display: none;
@@ -114,11 +119,59 @@ div.navbar {
     width: 200px;
   }
 }
+@media only screen and (max-width: 730px) {
+  .nameTag {
+    width: auto;
+  }
+  .navIconSvg {
+  width: 25px !important;
+  height: 25px !important;
+  padding: 8px;
+}
+.navIconGit {
+  width: 21px !important;
+  height: 21px !important;
+  padding: 8px;
+}
+
+  .nameTag > br {
+    display: block;
+    margin-bottom: -20px;
+  }
+
+  .myName {
+    position: relative;
+    width: 200px;
+    display: inline-block;
+    font-size: 80%;
+  }
+
+  .myName::before {
+    width: 100%;
+    height: 10px;
+    top: 50%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+  }
+
+  .def.fade-in {
+    width: 400px;
+    display: inline-block;
+    font-size: 30px;
+  }
+
+  .greeting.fade-in {
+    font-size: 70px;
+    padding-right: 55px;
+  }
+}
+
 @media only screen and (max-width: 680px) {
   div.navbar {
     width: 150px;
   }
-
+  .myName {
+  }
   .buttonStyle {
     font-size: 5vw;
   }
