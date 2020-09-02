@@ -44,7 +44,7 @@ const About = () => {
             <p>
               I've been driven into computers/programming since I was little.
               I've started my coding journey with an arduino project, then
-              learned C for a bit, hackhatons, programming conventions,
+              learned C for a bit, hackathons, programming conventions,
               bootcamps and so forth, here I am. I am still and will be learning
               lots of stuff!
             </p>

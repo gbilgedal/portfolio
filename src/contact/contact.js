@@ -33,7 +33,7 @@ const Contact = () => {
                 <span className="reachOutText">
                   You can reach out to me
                   <br />
-                  via social medias like:
+                  via social media
                 </span>
               </p>
               <br />

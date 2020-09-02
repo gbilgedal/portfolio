@@ -14,7 +14,7 @@ function App() {
       <Router>
         <Route exact path="/portfolio" component={Home}></Route>
         <Route exact path="/portfolio/about" component={About}></Route>
-        <Route exact path="/portfolio/contact_me" component={Contact}></Route>
+        <Route exact path="/portfolio/contact" component={Contact}></Route>
         <Route exact path="/portfolio/projects" component={Projects}></Route>
         <Route exact path="/portfolio/resume" component={Resume}></Route>
         <Route exact path="/portfolio/blogposts" component={BlogPosts}></Route>

@@ -45,7 +45,7 @@ const Navbar = () => {
           Resume
         </Button>
       </Link>
-      <Link style={linkStyle} to="/portfolio/contact_me">
+      <Link style={linkStyle} to="/portfolio/contact">
         <Button className="buttonStyle" size="large">
           Contact
         </Button>

@@ -45,21 +45,28 @@ const Project = (props) => {
             <div className="innerCardCss">
               <img style={logoThingie} src={logo} />{" "}
             </div>
-            <p className="desc">{props.desc}</p>
+            <div className="desc">
+              <h6 className="desc">{props.name}</h6>
+              <p className="desc">{props.desc}</p>
+            </div>
             <div className="innerCardCss">
-              {props.github&&<a href={props.github} target="_blank">
-                <GitHubIcon style={{ fontSize: 45, color: "black" }} />
-              </a>}
+              {props.github && (
+                <a href={props.github} target="_blank">
+                  <GitHubIcon style={{ fontSize: 45, color: "black" }} />
+                </a>
+              )}
               &nbsp;
-              {props.liveLink&&<a href={props.liveLink} target="_blank">
-                <LinkIcon
-                  style={{
-                    fontSize: 45,
-                    color: "black",
-                    transform: "rotate(45deg)",
-                  }}
-                />
-              </a>}
+              {props.liveLink && (
+                <a href={props.liveLink} target="_blank">
+                  <LinkIcon
+                    style={{
+                      fontSize: 45,
+                      color: "black",
+                      transform: "rotate(45deg)",
+                    }}
+                  />
+                </a>
+              )}
             </div>
           </div>
         </Card>
