@@ -3,6 +3,8 @@ import "./index.css";
 import Card from "@material-ui/core/Card";
 import { makeStyles } from "@material-ui/core/styles";
 import Navbar from "../home/navbar";
+
+let pic = require("./images/pp.PNG");
 const useStyles3 = makeStyles({
   root: {
     minWidth: 450,
@@ -26,10 +28,7 @@ const About = () => {
         <div className="aboutLabel fade-in">About Me</div>
         <div className="doubleThis fade-in">
           <div className="imgDiv">
-            <img
-              className="imgStyle"
-              src="https://media-exp1.licdn.com/dms/image/C5603AQEx_eMuPKSJxA/profile-displayphoto-shrink_200_200/0?e=1597881600&v=beta&t=szUR-qldLlIOubS763CSOzk-qhnznZvWnUZIsMEyMEA"
-            />
+            <img className="imgStyle" src={pic} />
           </div>
 
           <Card className={classes.root}>
