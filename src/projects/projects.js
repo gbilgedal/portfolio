@@ -9,7 +9,7 @@ let projects = [
     desc:
       "This is a web application for reaching out to the people who have suicidal tendencies, offering them instant support and helping them improve their mental state with other methods.",
     githubLink: "https://github.com/ReCoded-Org/istanbul-capstone-sdp/",
-    liveLink: "https://suicide-detection.netlify.app/",
+    liveLink: "https://istanbul-capstone-sdp.netlify.app/",
     index: 2,
   },
   {
