@@ -34,12 +34,11 @@ const About = () => {
           <Card className={classes.root}>
             <p>
               Hey there, I am Bilge. Currently I can be considered as a{" "}
-              <i>front-end web developer</i> who is curious about back-end and
-              web security. And outside of web, I am interested in reverse
-              engineering, algorithms, cryptography, vulnerability research,
-              osint, -we can say information security for all of this-. Also I
-              sometimes build and/or code robots for competition since I am a
-              team member of MUFE Robotics.
+              <i>infosec enthusiast</i> who is curious about web development and
+              security. Outside of web, I am interested in reverse engineering,
+              algorithms, cryptography, vulnerability research, osint, cyber
+              intel. Also I sometimes build and/or code robots for competition
+              since I am a team member of MUFE Robotics.
             </p>
             <p>
               I've been driven into computers/programming since I was little.
@@ -49,13 +48,13 @@ const About = () => {
               lots of stuff!
             </p>
             <p>
-              I am familiar with ReactJS, HTML, CSS, JS and FirebaseDB as for
-              web development; Java, C, Python and GNU/Linux Operating Systems
-              as for other things.
+              I've done things about steganography, reverse, cryptography, web
+              vulns till this day. I'm still learning lots of things every day.
+              I like solving machines and participating in CTFs.
             </p>
             <p>
-              And also, I <em>love</em> music(listening and making), learning
-              new languages, video games, maths and physics.
+              I <em>love</em> music(listening and making), learning new
+              languages, video games, maths and physics.
             </p>
           </Card>
         </div>
